@@ -12,7 +12,8 @@
         "phone": "+385 91 555 4721",
         "summary": "I am hands-on, no-nonsense vision-oriented software architect, engineering team manager and product designer with two decades of experience in building teams, scalable platforms and infrastructure. I focus on automation to drive success and eliminate human-factor mistakes.",
         "profiles": [{
-		  "network": "LinkedIn",
+		  "network": "LinkedIn",		  
+          "username": "Nikola Bursać",
 		  "url": "https://www.linkedin.com/in/nikola-bursa%C4%87-6a711692/"
 		}]
     },
@@ -26,11 +27,12 @@
     ],
     "languages": [
         {
-            "fluency": "Native",
-            "language": "English"
+            "fluency": "Native speaker",
+            "language": "English",
+			"level": "Native speaker"
         },
         {
-            "fluency": "Native",
+            "fluency": "Native speaker",
             "language": "Croatian/Serbian"
         }
     ],
@@ -53,56 +55,6 @@
 		}
 	],
     "projects": [
-
-        {
-            "endDate": "2023-08-31",
-            "highlights": [
-                "Designed API and API versioning, supporting multiple programming languages.",
-                "Led the research behind rating engine used with policies to facilitate configurable system meant to save time while creating rules for rating policies.",
-                "Created the storage data model which supports versioning and data immutability to adhere to standards with insurance policy data retention and policy updates.",
-                "Designed hybrid storage model to support multiple different insurance products within the same cloud environment.",
-                "Created, tested and optimized recording of financial transactions with persistence and reliability in mind.",
-                "Facilitated enterprise service bus using ZeroMQ and background async/parallel processing using PHP, later superseded by Temporal workflow orchestration.",
-                "Created UI components intended to facilitate easy insurance policy product build and testing.",
-                "Developed testing processes and build procedures to enable AutoDevOps and predictable delivery schedule."
-            ],
-            "name": "C2MS",
-            "startDate": "2008-11-01",
-            "summary": "Backbone of Insurance Platform as a Service product featuring full-set API for designing and managing insurance policy lifecycle, principal architect and hands-on manager."
-        },
-
-        {
-            "endDate": "2023-08-31",
-            "highlights": [
-                "Developed API to support SAML 2.0 and OpenID Connect Single Sign On protocols.",
-                "Added OAuth2 authorization protocol support to the API.",
-                "Developed a pluggable authentication driver system to enable seamless integration with existing systems based on LDAP or custom solutions, facilitating non-invasive augmentation of existing infrastructure.",
-                "Exposed mechanism for adding multifactor authentication with support for HOTP/TOTP protocols (RFC 4226 and 6238), as well as Yubikey hardware tokens in OATH/Yubico/U2F modes.",
-                "Created a set of exensible UI components to enable per-client branding.",
-                "Developed auxiliary tool labeled Authstack User Directory to enable multi-user-sources and to replace LDAP-based solutions.",
-                "Performed client consultations to determine levels of SSO/MFA needed.",
-                "Established observability rules to detect potential breaches in conjunction with invalidation/alerting services."
-            ],
-            "name": "Authstack IAM",
-            "startDate": "2016-01-01",
-            "summary": "Authentication and Authorization suite featuring SAML 2.0, OpenID Connect and OAuth2 protocols with support for MultiFactor Authentication, for seamless and secure authentication across multiple applications."
-        },
-
-
-        {
-            "endDate": "2023-08-31",
-            "highlights": [
-                "Collaborated with cross-functional teams with the goal of creating an entire solution for insurance policy management, selling and reporting.",
-                "Led backend development and GraphQL implementation, focused on parallelization and performance.",
-                "Collaborated with cross-functional teams to implement multi-cloud deployment and backup.",
-                "Orchestrated automation of in-browser tests using Cypress and Amazon Device Farm service.",
-                "Principal architect behind observability platform suite used to monitor transactions, micro-service status, service status and user experience meant for proactive support.",
-                "Led requirement gathering and vetting, ensured successful project delivery and drove continuous improvement."
-            ],
-            "name": "OPAL Insurance Platform",
-            "startDate": "2019-01-01",
-            "summary": "Large-scale, multi-cloud insurance and claim management system"
-        },
 
         {
             "endDate": "2023-08-31",
@@ -135,6 +87,56 @@
             "startDate": "2021-01-01",
             "summary": "Configurable, alternate viewer of insurance policies allowing configurable views of policies and insurance products intended to ease policy administration for Underwriters"
         },
+		
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Collaborated with cross-functional teams with the goal of creating an entire solution for insurance policy management, selling and reporting.",
+                "Led backend development and GraphQL implementation, focused on parallelization and performance.",
+                "Collaborated with cross-functional teams to implement multi-cloud deployment and backup.",
+                "Orchestrated automation of in-browser tests using Cypress and Amazon Device Farm service.",
+                "Principal architect behind observability platform suite used to monitor transactions, micro-service status, service status and user experience meant for proactive support.",
+                "Led requirement gathering and vetting, ensured successful project delivery and drove continuous improvement."
+            ],
+            "name": "OPAL Insurance Platform",
+            "startDate": "2019-01-01",
+            "summary": "Large-scale, multi-cloud insurance and claim management system"
+        },
+		
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Developed API to support SAML 2.0 and OpenID Connect Single Sign On protocols.",
+                "Added OAuth2 authorization protocol support to the API.",
+                "Developed a pluggable authentication driver system to enable seamless integration with existing systems based on LDAP or custom solutions, facilitating non-invasive augmentation of existing infrastructure.",
+                "Exposed mechanism for adding multifactor authentication with support for HOTP/TOTP protocols (RFC 4226 and 6238), as well as Yubikey hardware tokens in OATH/Yubico/U2F modes.",
+                "Created a set of exensible UI components to enable per-client branding.",
+                "Developed auxiliary tool labeled Authstack User Directory to enable multi-user-sources and to replace LDAP-based solutions.",
+                "Performed client consultations to determine levels of SSO/MFA needed.",
+                "Established observability rules to detect potential breaches in conjunction with invalidation/alerting services."
+            ],
+            "name": "Authstack IAM",
+            "startDate": "2016-01-01",
+            "summary": "Authentication and Authorization suite featuring SAML 2.0, OpenID Connect and OAuth2 protocols with support for MultiFactor Authentication, for seamless and secure authentication across multiple applications."
+        },		
+
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Designed API and API versioning, supporting multiple programming languages.",
+                "Led the research behind rating engine used with policies to facilitate configurable system meant to save time while creating rules for rating policies.",
+                "Created the storage data model which supports versioning and data immutability to adhere to standards with insurance policy data retention and policy updates.",
+                "Designed hybrid storage model to support multiple different insurance products within the same cloud environment.",
+                "Created, tested and optimized recording of financial transactions with persistence and reliability in mind.",
+                "Facilitated enterprise service bus using ZeroMQ and background async/parallel processing using PHP, later superseded by Temporal workflow orchestration.",
+                "Created UI components intended to facilitate easy insurance policy product build and testing.",
+                "Developed testing processes and build procedures to enable AutoDevOps and predictable delivery schedule."
+            ],
+            "name": "C2MS",
+            "startDate": "2008-01-01",
+            "summary": "Backbone of Insurance Platform as a Service product featuring full-set API for designing and managing insurance policy lifecycle, principal architect and hands-on manager."
+        },
+		
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -160,7 +162,6 @@
     ],
     "references": [
         {
-            "name": "Reference 1",
             "reference": "Available upon request"
         }
     ],
@@ -200,7 +201,6 @@
                 "Apache 1.3",
                 "Apache 2.2"
             ],
-            "level": "Senior",
             "name": "HTTP Servers"
         },
         {
@@ -213,7 +213,7 @@
         },
         {
             "keywords": [
-                "Temporal.io"
+                "Temporal"
             ],
             "name": "Workflow Orchestration"
         },
@@ -247,7 +247,6 @@
                 "Apache Kafka",
                 "ZeroMQ"
             ],
-            "level": "Senior",
             "name": "Event Streaming/ESB"
         },
         {
@@ -255,14 +254,12 @@
                 "SAML 2.0",
                 "OpenID Connect"
             ],
-            "level": "Senior",
             "name": "SSO Protocols"
         },
         {
             "keywords": [
                 "OAuth2"
             ],
-            "level": "Senior",
             "name": "Authorization Protocols"
         },
 		{
