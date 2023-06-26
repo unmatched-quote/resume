@@ -11,11 +11,18 @@
         "name": "Nikola Bursać",
         "phone": "+385 91 555 4721",
         "summary": "I am hands-on, no-nonsense vision-oriented software architect, engineering team manager and product designer with two decades of experience in building teams, scalable platforms and infrastructure. I focus on automation to drive success and eliminate human-factor mistakes.",
-        "profiles": [{
-		  "network": "LinkedIn",		  
-          "username": "Nikola Bursać",
-		  "url": "https://www.linkedin.com/in/nikola-bursa%C4%87-6a711692/"
-		}]
+        "profiles": [
+			{
+			  "network": "LinkedIn",		  
+			  "username": "Nikola Bursać",
+			  "url": "https://www.linkedin.com/in/nikola-bursa%C4%87-6a711692/"
+			},
+			{
+			  "network": "Github",		  
+			  "username": "Nikola Bursać",
+			  "url": "https://unmatched-quote.github.io/resume/"
+			}
+		]
     },
     "education": [
         {
