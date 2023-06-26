@@ -53,7 +53,7 @@
 		}
 	],
     "projects": [
-		
+
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -70,7 +70,7 @@
             "startDate": "2008-11-01",
             "summary": "Backbone of Insurance Platform as a Service product featuring full-set API for designing and managing insurance policy lifecycle, principal architect and hands-on manager."
         },
-	
+
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -87,8 +87,8 @@
             "startDate": "2016-01-01",
             "summary": "Authentication and Authorization suite featuring SAML 2.0, OpenID Connect and OAuth2 protocols with support for MultiFactor Authentication, for seamless and secure authentication across multiple applications."
         },
-		
-		
+
+
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -103,7 +103,7 @@
             "startDate": "2019-01-01",
             "summary": "Large-scale, multi-cloud insurance and claim management system"
         },
-	
+
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -121,7 +121,7 @@
             "startDate": "2022-01-01",
             "summary": "Led implementation of customer-story driven specification to expose standalone insurance claims management system"
         },
-		
+
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -144,7 +144,7 @@
 				"Lead developer of PDE - Programmer Development Environment, set of services in use by developers to create replicas of production environment using containerization techologies.",
 				"Overseen development of PDE addons in form of Bash/ZX scripts that bootstrap projects developers work on using PDE.",
 				"Introduced and implemented Sentry, Grafana and Loki - observability platform foundations.",
-				"Defined and developed onboarding/offboarding procedures and processes.", 
+				"Defined and developed onboarding/offboarding procedures and processes.",
 				"Introduced Satis: Simple static Composer repository generator, a repository for internally developed PHP libraries that follow PSR standards.",
 				"Introduced Verdaccio: a self-hosted internal NPM package manager.",
 				"Organized and maintained private NPM for company's development and deployment requirements.",
@@ -288,7 +288,7 @@
 			"name": "Secret/Credential Management"
 		}
     ],
-    "work": [	
+    "work": [
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -326,7 +326,7 @@
             "startDate": "2008-06-01",
             "summary": "Started my tenure as Head of Software Engineering to facilitate company's transition into Insurance Technology space.",
             "url": "https://www.buckhill.co.uk"
-        },		
+        },
         {
             "endDate": "2023-08-31",
             "highlights": [
@@ -353,7 +353,7 @@
             "name": "Self-employed",
             "position": "Web Developer / Freelancer",
             "startDate": "2001-06-01",
-            "summary": "Implemented a matrix management system to facilitate efficient communication and collaboration between cross-functional teams..."
-        }    
+            "summary": "Website developer and contractor"
+        }
 	]
 }
