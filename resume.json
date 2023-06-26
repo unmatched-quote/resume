@@ -1,0 +1,359 @@
+{
+    "basics": {
+        "email": "nikola.bursac@proton.me",
+        "image": "https://media.licdn.com/dms/image/D4D03AQGhUJ3zXUk_Cg/profile-displayphoto-shrink_200_200/0/1686733904539?e=1693440000&v=beta&t=ygp0Gn7KDMiFDHWRzFofjveQjtCvZW1l-tff6YSHBAg",
+        "label": "Software Architect / Engineering Team Manager and Head of Software Development",
+        "location": {
+            "city": "Zagreb",
+            "countryCode": "HR",
+            "postalCode": "10000"
+        },
+        "name": "Nikola Bursać",
+        "phone": "+385 91 555 4721",
+        "summary": "I am hands-on, no-nonsense vision-oriented software architect, engineering team manager and product designer with two decades of experience in building teams, scalable platforms and infrastructure. I focus on automation to drive success and eliminate human-factor mistakes.",
+        "profiles": [{
+		  "network": "LinkedIn",
+		  "url": "https://www.linkedin.com/in/nikola-bursa%C4%87-6a711692/"
+		}]
+    },
+    "education": [
+        {
+            "area": "Computer Science",
+            "endDate": "2006-02-01",
+            "institution": "Faculty of Electronics and Engineering",
+            "startDate": "2001-09-07"
+        }
+    ],
+    "languages": [
+        {
+            "fluency": "Native",
+            "language": "English"
+        },
+        {
+            "fluency": "Native",
+            "language": "Croatian/Serbian"
+        }
+    ],
+	"interests": [
+		{
+			"name": "Automation",
+			"keywords": [
+				"AI",
+				"Internet of Things (IoT)",
+				"Auto DevOps"
+			]
+		},
+		{
+			"name": "Cryptography",
+			"keywords": [
+				"Asymmetric Encryption",
+				"Homomorphic Encryption",
+				"Cryptanalysis"
+			]
+		}
+	],
+    "projects": [
+		
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Designed API and API versioning, supporting multiple programming languages.",
+                "Led the research behind rating engine used with policies to facilitate configurable system meant to save time while creating rules for rating policies.",
+                "Created the storage data model which supports versioning and data immutability to adhere to standards with insurance policy data retention and policy updates.",
+                "Designed hybrid storage model to support multiple different insurance products within the same cloud environment.",
+                "Created, tested and optimized recording of financial transactions with persistence and reliability in mind.",
+                "Facilitated enterprise service bus using ZeroMQ and background async/parallel processing using PHP, later superseded by Temporal workflow orchestration.",
+                "Created UI components intended to facilitate easy insurance policy product build and testing.",
+                "Developed testing processes and build procedures to enable AutoDevOps and predictable delivery schedule."
+            ],
+            "name": "C2MS",
+            "startDate": "2008-11-01",
+            "summary": "Backbone of Insurance Platform as a Service product featuring full-set API for designing and managing insurance policy lifecycle, principal architect and hands-on manager."
+        },
+	
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Developed API to support SAML 2.0 and OpenID Connect Single Sign On protocols.",
+                "Added OAuth2 authorization protocol support to the API.",
+                "Developed a pluggable authentication driver system to enable seamless integration with existing systems based on LDAP or custom solutions, facilitating non-invasive augmentation of existing infrastructure.",
+                "Exposed mechanism for adding multifactor authentication with support for HOTP/TOTP protocols (RFC 4226 and 6238), as well as Yubikey hardware tokens in OATH/Yubico/U2F modes.",
+                "Created a set of exensible UI components to enable per-client branding.",
+                "Developed auxiliary tool labeled Authstack User Directory to enable multi-user-sources and to replace LDAP-based solutions.",
+                "Performed client consultations to determine levels of SSO/MFA needed.",
+                "Established observability rules to detect potential breaches in conjunction with invalidation/alerting services."
+            ],
+            "name": "Authstack IAM",
+            "startDate": "2016-01-01",
+            "summary": "Authentication and Authorization suite featuring SAML 2.0, OpenID Connect and OAuth2 protocols with support for MultiFactor Authentication, for seamless and secure authentication across multiple applications."
+        },
+		
+		
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Collaborated with cross-functional teams with the goal of creating an entire solution for insurance policy management, selling and reporting.",
+                "Led backend development and GraphQL implementation, focused on parallelization and performance.",
+                "Collaborated with cross-functional teams to implement multi-cloud deployment and backup.",
+                "Orchestrated automation of in-browser tests using Cypress and Amazon Device Farm service.",
+                "Principal architect behind observability platform suite used to monitor transactions, micro-service status, service status and user experience meant for proactive support.",
+                "Led requirement gathering and vetting, ensured successful project delivery and drove continuous improvement."
+            ],
+            "name": "OPAL Insurance Platform",
+            "startDate": "2019-01-01",
+            "summary": "Large-scale, multi-cloud insurance and claim management system"
+        },
+	
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Led implementation of customer-story driven specification.",
+				"Provided relational data model.",
+				"Designed fraud detection primitives.",
+                "Conducted integration tests to match defined outcomes.",
+				"Implemented AutoDevOps to reduce errors due to human factor.",
+				"Implemented observability.",
+                "Enforced philosophy 'code as documentation' to drive GraphQL and OpenAPI schema tooling implementation.",
+                "Overseen deployment and builds for Kubernetes targets.",
+				"Mentored, onboarded backend and frontend teams."
+            ],
+            "name": "Claims Management System",
+            "startDate": "2022-01-01",
+            "summary": "Led implementation of customer-story driven specification to expose standalone insurance claims management system"
+        },
+		
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+				"Led R&D team, discovered necessary use case.",
+				"Led the UI/UX team.",
+				"Reduced complexity of the application with introduction of GraphQL, eliminating the need for stacks and languages outside of JavaScript ecosystem.",
+				"Provided infrastructure configuration to avoid need for SSR by innovative use of nginx and its regular-expression based routing rules to deliver statically generated pages.",
+				"Created a set of reusable Vue.js components using Composition API (Vue 3) to expose reverse geocoding / map view capabilities."
+            ],
+            "name": "Underwriting Workbench",
+            "startDate": "2021-01-01",
+            "summary": "Configurable, alternate viewer of insurance policies allowing configurable views of policies and insurance products intended to ease policy administration for Underwriters"
+        },
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+				"Introduced Gitlab, transitioned to self-hosted Gitlab instance using physical servers to reduce the possibility of sensitive data leaks.",
+				"Introduced Gitlab CI/CD using Kubernetes runners.",
+				"Implemented BitWarden password manager on organization-level, using self-hosted instance. BitWarden is used during onboarding/offboarding to provide new team members with necessary logins, avoiding the need to contact support department.",
+				"Lead developer of PDE - Programmer Development Environment, set of services in use by developers to create replicas of production environment using containerization techologies.",
+				"Overseen development of PDE addons in form of Bash/ZX scripts that bootstrap projects developers work on using PDE.",
+				"Introduced and implemented Sentry, Grafana and Loki - observability platform foundations.",
+				"Defined and developed onboarding/offboarding procedures and processes.", 
+				"Introduced Satis: Simple static Composer repository generator, a repository for internally developed PHP libraries that follow PSR standards.",
+				"Introduced Verdaccio: a self-hosted internal NPM package manager.",
+				"Organized and maintained private NPM for company's development and deployment requirements.",
+				"Introduced Swagger (renamed to OpenAPI) and GraphQL to public API's.",
+				"Implemented and organized internal Identity Access Management for purposes of establishing a Security Center.",
+				"Introduced, practiced and advocated agile methodologies on the organization-level.",
+				"Created and maintained Confluence pages with Research & Development updates on tools/services/stacks being evaluated for use with the Insurance Platform."
+            ],
+            "name": "Internal tools and systems",
+            "startDate": "2008-01-01",
+            "summary": "Developed and curated a set of tools and procedures to drive change, improve delivery and optimize time-to-completion."
+        }
+    ],
+    "references": [
+        {
+            "name": "Reference 1",
+            "reference": "Available upon request"
+        }
+    ],
+    "skills": [
+        {
+            "keywords": [
+                "PHP",
+                "JavaScript",
+                "TypeScript",
+                "SQL",
+                "Golang",
+                "Bash",
+                "C"
+            ],
+            "name": "Programming Languages"
+        },
+        {
+            "keywords": [
+                "Vue.js",
+                "Nuxt.js",
+                "Cypress",
+                "Storybook"
+            ],
+            "name": "Front-End Technologies"
+        },
+        {
+            "keywords": [
+                "MySQL",
+                "Oracle HeatWave",
+                "Clickhouse"
+            ],
+            "name": "Database"
+        },
+        {
+            "keywords": [
+                "nginx",
+                "Apache 1.3",
+                "Apache 2.2"
+            ],
+            "level": "Senior",
+            "name": "HTTP Servers"
+        },
+        {
+            "keywords": [
+                "nginx",
+                "Amazon Web Services (AWS)",
+                "Google Cloud Platform (GCP)"
+            ],
+            "name": "DevOps"
+        },
+        {
+            "keywords": [
+                "Temporal.io"
+            ],
+            "name": "Workflow Orchestration"
+        },
+        {
+            "keywords": [
+                "Jira",
+                "Confluence",
+                "Notion"
+            ],
+            "name": "Project Management Tools"
+        },
+        {
+            "keywords": [
+                "GitLab CI/CD",
+                "Docker",
+                "Docker Compose",
+                "Podman"
+            ],
+            "name": "CI/CD"
+        },
+        {
+            "keywords": [
+                "Sentry",
+                "Grafana+Loki",
+                "Apache Kafka"
+            ],
+            "name": "Observability"
+        },
+        {
+            "keywords": [
+                "Apache Kafka",
+                "ZeroMQ"
+            ],
+            "level": "Senior",
+            "name": "Event Streaming/ESB"
+        },
+        {
+            "keywords": [
+                "SAML 2.0",
+                "OpenID Connect"
+            ],
+            "level": "Senior",
+            "name": "SSO Protocols"
+        },
+        {
+            "keywords": [
+                "OAuth2"
+            ],
+            "level": "Senior",
+            "name": "Authorization Protocols"
+        },
+		{
+			"keywords": [
+				"Laravel",
+				"Symfony",
+				"Express.js"
+			],
+			"name": "Frameworks"
+		},
+		{
+			"keywords": [
+				"PHPUnit",
+				"Jest"
+			],
+			"name": "Test runners"
+		},
+		{
+			"keywords": [
+				"BitWarden",
+				"HashiCorp Vault"
+			],
+			"name": "Secret/Credential Management"
+		}
+    ],
+    "work": [	
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Overseeing the end-to-end software development lifecycle.",
+                "Design, development and maintenance of InsurTech Platform As a Service with Multi-Cloud deployment support.",
+                "Led a team of software engineers in designing and developing ongoing InsurTech API platform, focusing on rating engine implementation and security.",
+                "Created build process and rule-set for continuous testing and containerization build.",
+                "Designed and developed an Identity Access Management platform with Multi-Factor Authentication capabilities, supporting hardware tokens like Yubikeys.",
+                "Decided on software and frameworks in use to leverage framework popularity with the availability of learning materials and onboarding support.",
+                "Collaborated with cross-functional teams and stakeholders to gather requirements, ensure successful project delivery, and drive continuous improvement.",
+                "Implemented in-browser test automation using Cypress and multi-device integration testing with Amazon Device Farm.",
+                "Placed focus on automation and AutoDevOps to eliminate errors stemming from human-factor and repetition in order to minimize technical debt and errors incurred by manual work.",
+                "Implemented internal tools and rules targetted at hosting codebases, storing sensitive credentials and secrets used within the organization.",
+                "Drove philosophy 'code as documentation', enforced documenting API's using OpenAPI standards, led R&D team that created internal tooling targetted at generating GraphQL schemas and OpenAPI specs using code-as-documentation process.",
+                "Led talent acquisition and developer onboarding processes."
+            ],
+            "name": "Buckhill Ltd.",
+            "position": "Director of Engineering",
+            "startDate": "2012-05-01",
+            "summary": "Led Croatian branch of Buckhill Ltd. with focus on streamlining processes and adopting modern technologies to accomplish given goals.",
+            "url": "https://www.buckhill.co.uk"
+        },
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Led Research and Development team in order to create Insurance Platform as a Service product.",
+                "Conducted user research, usability testing, and gathered feedback to inform design decisions and iterate on product designs.",
+                "Developed front-end interfaces for company's flagship product using HTML, CSS, and JavaScript.",
+                "Established and enforced coding standards, development processes, and best practices to ensure high-quality software delivery.",
+                "Led teams of developers and designers as the Head of Software Engineering, overseeing their day-to-day activities, project assignments, and performance evaluations.",
+                "Built and managed cross-functional teams, fostering a collaborative work environment, along with mentoring and coaching engineers."
+            ],
+            "name": "Buckhill Ltd.",
+            "position": "Head of Software Engineering",
+            "startDate": "2008-06-01",
+            "summary": "Started my tenure as Head of Software Engineering to facilitate company's transition into Insurance Technology space.",
+            "url": "https://www.buckhill.co.uk"
+        },		
+        {
+            "endDate": "2023-08-31",
+            "highlights": [
+                "Ecommerce solution development.",
+                "Call-centre solution development.",
+                "Veterinary practice management software development."
+            ],
+            "name": "Buckhill Ltd.",
+            "position": "Senior Software Engineer",
+            "startDate": "2006-06-01",
+            "summary": "Created a suite of small-business products for use with local businesses in UK",
+            "url": "https://www.buckhill.co.uk"
+        },
+        {
+            "endDate": "2006-06-01",
+            "highlights": [
+                "Website Development.",
+                "University-based micro-website development.",
+                "CSS/HTML optimization",
+                "CMS development",
+                "Developed in-office collaboration suite for file sharing targetted at creating monthly shareware CD/DVD that shipped with the PCChip magazine.",
+                "Physical server management and maintenance."
+            ],
+            "name": "Self-employed",
+            "position": "Web Developer / Freelancer",
+            "startDate": "2001-06-01",
+            "summary": "Implemented a matrix management system to facilitate efficient communication and collaboration between cross-functional teams..."
+        }    
+	]
+}
